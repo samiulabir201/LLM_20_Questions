@@ -1,0 +1,9 @@
+settings:
+  use_quantization: true
+  quantization_level: 8
+  max_tokens: 1536
+  temperature: 0.7
+paths:
+  data_path: "Data/"
+  models_path: "src/Tuned_models/"
+  agents_path: "src/agents/"
