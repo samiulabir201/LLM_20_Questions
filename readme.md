@@ -61,16 +61,16 @@ Follow these steps to set up the project:
    git clone https://github.com/samiulabir201/LLM_20_Questions.git
    cd LLM_20_Questions
    ```
-2. **Set up a virtual environment:
+2. **Set up a virtual environment**:
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
-3. **Install the required dependencies:
+3. **Install the required dependencies**:
    ```
    pip install -r requirements.txt
    ```
-5. **Download the required models:
+5. **Download the required models**:
 
    The project requires a transformer model. Use the following code snippet in Python to download the model:
    ```
