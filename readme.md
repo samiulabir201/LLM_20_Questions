@@ -52,15 +52,31 @@ This project brings the classic deduction game **20 Questions** into the modern 
 - **Collaborative AI Systems**: This project demonstrates how LLMs can work together, a concept applicable to multi-agent AI systems in complex environments.
 
 ## Getting Started
-1. Clone the repository:
-   git clone <repository-url>
-   cd 20-questions-project
-2. Install dependencies:
-   pip install -r requirements.txt
-3. Execute the main program:
-   python src/main.py
+## Installation
 
-For detailed usage and examples, refer to the documentation within the src folder.
+Follow these steps to set up the project:
+
+1. **Clone the repository**:
+   ```
+   git clone https://github.com/samiulabir201/LLM_20_Questions.git
+   cd LLM_20_Questions
+   ```
+2. **Set up a virtual environment:
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. **Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+5. **Download the required models:
+
+   The project requires a transformer model. Use the following code snippet in Python to download the model:
+   ```
+   from huggingface_hub import snapshot_download
+   snapshot_download(repo_id="model/repository_name", cache_dir="./models")
+   ```
 
 ## Technologies Used
 1. Python
