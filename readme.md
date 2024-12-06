@@ -78,6 +78,47 @@ Follow these steps to set up the project:
    snapshot_download(repo_id="model/repository_name", cache_dir="./models")
    ```
 
+## Project Structure
+
+```
+   ├── Data
+      ├── .DS_Store
+      ├── allwords.py
+      ├── keyword_probs.pt
+      ├── list_keywords.pkl
+      ├── list_keywords.txt
+      ├── list_keywords_all_with_input.pkl
+      ├── list_keywords_all_with_input.txt
+      ├── list_keywords_all_with_input_with_priority.pkl
+      ├── list_keywords_all_without_input.pkl
+      ├── list_keywords_all_without_input.txt
+      ├── list_keywords_all_without_input_with_priority.pkl
+      ├── list_questions.pkl
+      ├── list_questions.txt
+   ├── Data.zip
+   ├── config.yaml
+   ├── model
+   ├── project_structure.py
+   ├── readme.md
+   ├── requirement.txt
+   ├── src
+      ├── .DS_Store
+      ├── Tuned_models
+         ├── model_all.py
+         ├── model_deepmath.py
+         ├── model_gemma.py
+      ├── agents
+         ├── agent_deepmath_answer.py
+         ├── agent_gemma_answer.py
+         ├── agent_manager.py
+         ├── alpha.py
+         ├── answer.py
+         ├── beta.py
+      ├── main.py
+      ├── utils
+         ├── util.py
+```
+
 ## Technologies Used
 1. Python
 2. PyTorch
